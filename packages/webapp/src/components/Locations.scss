@@ -105,3 +105,15 @@
 		padding-left: 48px;
 	}
 }
+
+.addQualifierGroupBottom {
+	padding: 0 80px 20px 20px;
+    display: flex;
+    justify-content: flex-end;
+    cursor: pointer;
+    margin-top: -10px;
+
+	i {
+		margin-right: 4px;
+	}
+}

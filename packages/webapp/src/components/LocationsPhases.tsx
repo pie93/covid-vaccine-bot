@@ -344,6 +344,16 @@ export default observer(function LocationsPhases(props: LocationsPhasesProp) {
 												)
 										  })
 										: null}
+									<div
+										className="addQualifierGroupBottom"
+										onClick={() => onAddQualifierClick(group.data.keyId)}
+									>
+										<FontIcon
+											iconName="CircleAdditionSolid"
+											style={{ color: '#0078d4' }}
+										/>
+										Add Qualifier
+									</div>
 								</div>
 							</div>
 						)
